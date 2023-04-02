@@ -14,10 +14,10 @@ classes={
 
 
 #loadinf model's weights
-model=load_model("trasfer_learning_inception.h5")
+#load the modeks weight after training , then save the model in suitbale name in format .h5 
+#lets assume that model was save as following : transfer_learning_inception.h5
+model=load_model("transfer_learning_inception.h5")
 model.summary()
-
-
 
 y_true = validation_generator.classes
 num_classes=validation_generator.num_classes
