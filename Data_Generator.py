@@ -1,5 +1,4 @@
 from keras.preprocessing.image import ImageDataGenerator
-#
 
 val_path="./test_Retinal_Images"
 data_path="./train_Retinal_Images"
