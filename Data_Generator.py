@@ -1,8 +1,8 @@
 from keras.preprocessing.image import ImageDataGenerator
 #
 
-val_path="D:/eye to diabets/Diabetic Retinopathy Detection/dataset blindness/Test_images"
-data_path="D:/eye to diabets/Diabetic Retinopathy Detection/dataset blindness/Retinal_Images"
+val_path="./test_Retinal_Images"
+data_path="./train_Retinal_Images"
 batch_size=64
 
 train_datagen=ImageDataGenerator(rescale=1.0/255.0 ,
